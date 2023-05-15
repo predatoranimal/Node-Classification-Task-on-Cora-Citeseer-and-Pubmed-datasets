@@ -5,7 +5,7 @@ from torch_geometric.nn import GCNConv
 from sklearn.metrics import f1_score,roc_curve,auc
 from sklearn.preprocessing import label_binarize
 import matplotlib.pyplot as plt
-dataset = Planetoid(root='E:/torch_geometric_datasets/',name='Citeseer')
+dataset = Planetoid(root='C:/torch_geometric_datasets/',name='Citeseer')
 
 class Net(torch.nn.Module):
     def __init__(self):
