@@ -18,5 +18,6 @@ python pubmed.py
 # Result
 | Dataset | Cora | Citeseer | Pubmed |
 |:-: | :-: | :-: | :-: |
-|Accuracy|80.20|66.90|78.80|
-|F1_score|79.26|64.80|78.43|
+|Accuracy|0.8020|0.6690|0.7880|
+|F1_score|0.7926|0.6480|0.7843|
+|AUC|0.96|0.90|0.91|
