@@ -10,6 +10,9 @@ matplotlib==3.5.1
 # Usage
 
 ```python
+conda create -n miao python=3.8.15
+conda activate miao
+pip install -r requirement.txt
 python cora.py
 python citeseer.py
 python pubmed.py
