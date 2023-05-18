@@ -7,12 +7,15 @@ scikit-learn==1.1.3
 
 matplotlib==3.5.1
 
+PyG
+
 # Usage
 
 ```python
 conda create -n miao python=3.8.15
 conda activate miao
 pip install -r requirements.txt
+conda install pyg -c pyg -c conda-forge
 python cora.py
 python citeseer.py
 python pubmed.py
