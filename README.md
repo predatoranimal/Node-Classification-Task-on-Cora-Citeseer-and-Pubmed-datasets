@@ -3,7 +3,7 @@ python==3.8.15
 ***
 pytorch==1.13.0
 
-scikit learn==1.3.1 
+scikit-learn==1.1.3
 
 matplotlib==3.5.1
 
@@ -12,7 +12,7 @@ matplotlib==3.5.1
 ```python
 conda create -n miao python=3.8.15
 conda activate miao
-pip install -r requirement.txt
+pip install -r requirements.txt
 python cora.py
 python citeseer.py
 python pubmed.py
